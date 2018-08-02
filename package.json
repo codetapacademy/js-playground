@@ -1,0 +1,32 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "A place where we can write JavaScript and have fun doing it",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=env",
+    "start": "nodemon --exec npm run babel-node -- ./index.js",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codetapio/js-playground.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "playground",
+    "marian",
+    "zburlea"
+  ],
+  "author": "Marian Zburlea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codetapio/js-playground/issues"
+  },
+  "homepage": "https://github.com/codetapio/js-playground#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
